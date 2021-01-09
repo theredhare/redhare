@@ -8,7 +8,7 @@
 
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Red Hare Security Research :: Red Hare Security Research</title>
+    <title>Setup :: Red Hare Security Research</title>
 
     
     <link href="/redhare/css/nucleus.css?1610170903" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/redhare/">
+  <body class="" data-url="/redhare/android/setup/">
     <nav id="sidebar" class="">
 
 
@@ -206,8 +206,8 @@
   
     
     <li data-nav-id="/redhare/android/" title="Androids" class="dd-item
+        parent
         
-        active
         
         ">
       <a href="/redhare/android/">
@@ -232,7 +232,7 @@
  
   
     
-      <li data-nav-id="/redhare/android/setup/" title="Setup" class="dd-item ">
+      <li data-nav-id="/redhare/android/setup/" title="Setup" class="dd-item active">
         <a href="/redhare/android/setup/">
         Setup
         
@@ -273,51 +273,77 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/redhare/'>Red Hare Security Research</a> > <a href='/redhare/android/'>Androids</a> > Setup
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents"></nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
         <div id="head-tags">
         
         </div>
         
         <div id="body-inner">
           
+            <h1>
+              
+              Setup
+            </h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span> 
-<h1><b>Red Hare Security Research</b></h1>
-<p>
-    Hello you’ve reached the blog belonging to <b>redhare</b>. I’ve been working in information security since 2016 and while I’ve done hacks for work and after hours in the pursuit of furthering my technical skills, I realized that none of it really sticks until I write it down and put words to my lab work. I think we all end up googling solutions to our problems and we often stumble upon that one blog, or several, that guide us to the answer we’re looking for. This blog will just be me putting words to the technical issues I come across and the answers I came to.
-</p>
-<p>
-    Full disclosure, any labs, write ups, solutions or opinions you read in any post will simply be what worked for me, specifically by the date I wrote the post. Things get patched, so software and hardware can update which can affect setups, steps, and commands. I imagine that environments can vary widely, and I'm not suggesting my environment works better than others. In fact I'd go so far as to encourage that you should read the posts and adapt any principles you see with your own work. I’ll try to write steps which can be followed beginning to end assuming you come as a blank slate.
-</p>
-<p>
-    One last thing, if you attempt to replicate anything I’ve done do so responsibly and ethically!
-</p>
 
-<h2>My Infosec Journey Forward</h2>
-<p>
-    Information security is a wide field and the career paths one can take only further divide the field up into various subfields and disciplines. You may have heard of the term red team or blue team, thrown around on the internet which show the kind of divide between the different subfields of information security. Skillsets like reverse engineering, forensics, incident response, exist as various skills one can have, and it becomes a sort of vast playground where you can pick and choose what to pursue. There is even overlap of skillsets between subfields and disciplines, for example it may be useful for an <b>incident responder</b> to have an understanding of adversarial tactics. The point I’m trying to make is, I have found that when presented so many options, the feeling of <b>being overwhelmed</b> with choice <b>often paralyzes</b> me into inaction.
-</p>
-<p>
-    Focusing on what interests me helps me deal with the overwhelming options of cool things I can possibly do in infosec. What helps me is to think of these options as one giant existential Japanese role playing game. I pick a starting skill or research I like to tackle, and start the game from level 0 and progress forward. As I progress this skill building game, I will undoubtedly see other skills I’d like to spend time on. For me, the key is to understand that <b>you start from level 0</b>, which can be subjective to what your “zero” is, but any increment or step forward is still a move forward. I think of infosec the same way sometimes, in fact I wouldn’t be surprised if others thought the same way about their personal career journey. I like visuals, so if I were to create a sort of mind map of the existential journey I’ve done it’d look like the following flow chart:
-</p>
-    <div class="mermaid">
-    %%{init: {'themeVariables': { 'mainBkg': '#15ff0077', 'nodeBorder': '#15ff0077', 'edgeLabelBackground':'#15ff00', 'lineColor': '#15ff00', 'secondaryColor':'#B8860B'}}}%%
-    graph LR
-      A((Reverse Engineering))===B((Mobile Devices))
-      A===C((Desktop Systems))
-      B===D((.apk))
-      C===E((Software))
-      C===F((Malware))
-      E===G((.bin))
-      F===H((.exe))
-</div>
-<p>
-    We’ll see how this chart progresses the more I continue!
-</p>
-         
+<p>Here is some content to test</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
         </div>
         
 
@@ -348,8 +374,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -363,6 +387,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -387,8 +412,8 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/redhare/android/" title="Androids"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/redhare/android/" title="Androids" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -420,3 +445,4 @@
 
   </body>
 </html>
+
