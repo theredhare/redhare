@@ -5,6 +5,7 @@
     <link>https://theredhare.github.io/redhare/</link>
     <description>Recent content on Red Hare Security Research</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://theredhare.github.io/redhare/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Jan 2021 00:53:11 -0500</lastBuildDate><atom:link href="https://theredhare.github.io/redhare/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
