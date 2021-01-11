@@ -99,6 +99,10 @@ a:hover {
     background-color: var(--MAIN-LINK-HOVER-color);
 }
 
+#body-inner hr {
+    border-color: #15ff0077;
+}
+
 #body #navigation .nav-prev {
     background-color: #252c31;
 }
