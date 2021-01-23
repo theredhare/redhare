@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/dfir/</loc>
+    <lastmod>2021-01-23T16:27:20-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2021-01-09T00:53:11-05:00</lastmod>
   </url>
