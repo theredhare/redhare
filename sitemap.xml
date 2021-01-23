@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>www.redha.re/</loc>
+    <loc>/</loc>
     <lastmod>2021-01-09T00:53:11-05:00</lastmod>
   </url>
   
   <url>
-    <loc>www.redha.re/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>www.redha.re/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
