@@ -72,7 +72,7 @@ body {
 
 .progress {
     position: absolute;
-    background-color: rgba(246, 246, 246, 0.97);
+    background-color:/* rgba(246, 246, 246, 0.97)*/ #404040;
     width: auto;
     border: thin solid #ECECEC;
     display: none;

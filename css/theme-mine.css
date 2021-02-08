@@ -1,44 +1,49 @@
+/*Green (light to dark) #00e600,  #006600 */
+/*White to Black  */
+
 :root {
-    --MAIN-TEXT-color: #6dff60;
+    --MAIN-TEXT-color: #f2f2f2;
     /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #15ff0077;
+    --MAIN-TITLES-TEXT-color: #ffffff;
     /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color: #15ff00;
+    --MAIN-LINK-color: #f2f2f2;
     /* Color of links */
-    --MAIN-LINK-HOVER-color: #15ff00;
+    --MAIN-LINK-HOVER-color: #f2f2f2;
     /* Color of hovered links */
-    --MAIN-ANCHOR-color: #1C90F3;
+    --MAIN-ANCHOR-color: #b30000;
     /* color of anchors on titles */
-    --MENU-HEADER-BG-color: #ff0000;
+    --MENU-HEADER-BG-color: #b30000;
     /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #ff3232;
+    --MENU-HEADER-BORDER-color: #cc0000;
     /*Color of menu header border */
-    --MENU-SEARCH-BG-color: #252c31;
+    --MENU-SEARCH-BG-color: #1a1a1a;
     /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #15ff00;
+    --MENU-SEARCH-BOX-color: #f2f2f2;
     /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #15ff00;
+    --MENU-SEARCH-BOX-ICONS-color: #f2f2f2;
     /* Override search field icons color */
-    --MENU-SECTIONS-ACTIVE-BG-color: #252c31;
+    --MENU-SECTIONS-ACTIVE-BG-color: #404040;
     /* Background color of the active section and its childs */
-    --MENU-SECTIONS-BG-color: #252c31;
+    --MENU-SECTIONS-BG-color: #404040;
     /* Background color of other sections */
-    --MENU-SECTIONS-LINK-color: #15ff00;
+    --MENU-SECTIONS-LINK-color: #f2f2f2;
     /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #15ff00;
+    --MENU-SECTIONS-LINK-HOVER-color: #ffffff;
     /* Color of links in menu, when hovered */
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #15ff00;
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #ffffff;
     /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #ff0000;
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #999999;
     /* Color of background for the active category (only) */
-    --MENU-VISITED-color: #15ff00;
+    --MENU-VISITED-color: #f2f2f2;
     /* Color of 'page visited' icons in menu */
-    --MENU-SECTION-HR-color: #252c31;
+    --MENU-SECTION-HR-color: #1a1a1a;
     /* Color of <hr> separator in menu */
 }
 
+/* @import "tags.css";*/
+
 body {
-    background-color: #252c31;
+    background-color: #1a1a1a;
     color: var(--MAIN-TEXT-color) !important;
 }
 
@@ -88,7 +93,6 @@ a:hover {
 }*/
 
 #body a.highlight:after {
-    display: block;
     content: "";
     height: 1px;
     width: 0%;
@@ -100,23 +104,52 @@ a:hover {
 }
 
 #body-inner hr {
-    border-color: #15ff0077;
+    border-color: #ffffff;
 }
 
 #body #navigation .nav-prev {
-    background-color: #252c31;
+    background-color: #1a1a1a;
 }
 
 #body #navigation .nav-next {
-    background-color: #252c31;
+    background-color: #1a1a1a;
+}
+
+#top-github-link, #body #breadcrumbs {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#body #breadcrumbs {
+    height: auto;
+    margin-bottom: 0;
+    padding-left: 0;
+    line-height: 1.4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 70%;
+    float: left;
+}
+#body #breadcrumbs span {
+    padding: 0 0.1rem;
 }
 
 #top-bar {
-    background-color: #252c31;
+    background-color: #1a1a1a;
+    border-radius: 2px;
+    padding: 0 1rem;
+    height: 0;
+    min-height: 3rem;
 }
 
 #navigation {
-    background-color: #252c31;
+    background-color: #1a1a1a;
 }
 
 #sidebar {
@@ -130,12 +163,12 @@ a:hover {
 }
 
 #body-inner h1 {
-    border-color: #15ff0077;
+    border-color: #ffffff;
 }
 
 #sidebar #homelinks {
-    background-color: #ff0000;
-    border-color: #ff3232;
+    background-color: #404040;
+    border-color: #404040;
 }
 
 #sidebar .searchbox {
@@ -144,7 +177,7 @@ a:hover {
 }
 
 #header-wrapper ::placeholder {
-    color: #15ff00;
+    color: #f2f2f2;
 }
 
 #sidebar ul.topics>li.parent,
@@ -171,4 +204,30 @@ a:hover {
 
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
+}
+
+blockquote {
+    border-left: 10px solid #ff9999;
+}
+blockquote p {
+    font-size: 1.1rem;
+    color: #ff6666;
+}
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #cc0000;
+    font-size: 1.2rem;
+}
+
+#top-bar {
+    background: #1a1a1a;
+    border-radius: 2px;
+    padding: 0 1rem;
+    height: 0;
+    min-height: 3rem;
+}
+
+#top-bar progress {
+    color: #f2f2f2;
 }
