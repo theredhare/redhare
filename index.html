@@ -11,21 +11,21 @@
     <title>Red Hare Security Research :: Red Hare Security Research</title>
 
     
-    <link href="/css/nucleus.css?1612763664" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1612763664" rel="stylesheet">
-    <link href="/css/hybrid.css?1612763664" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1612763664" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1612763664" rel="stylesheet">
-    <link href="/css/auto-complete.css?1612763664" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1612763664" rel="stylesheet">
-    <link href="/css/theme.css?1612763664" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1612763664" rel="stylesheet">
+    <link href="/css/nucleus.css?1613369229" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1613369229" rel="stylesheet">
+    <link href="/css/hybrid.css?1613369229" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1613369229" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1613369229" rel="stylesheet">
+    <link href="/css/auto-complete.css?1613369229" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1613369229" rel="stylesheet">
+    <link href="/css/theme.css?1613369229" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1613369229" rel="stylesheet">
     
-    <link href="/css/theme-mine.css?1612763664" rel="stylesheet">
+    <link href="/css/theme-mine.css?1613369229" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1612763664"></script>
+    <script src="/js/jquery-3.3.1.min.js?1613369229"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -171,14 +171,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1612763664"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1612763664"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1613369229"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1613369229"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1612763664"></script>
+<script type="text/javascript" src="/js/search.js?1613369229"></script>
 
     
   </div>
@@ -215,6 +215,37 @@
           
       </a>
       
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/dfir/dfir-001-ioc/" title="Discovering Anomalies" class="dd-item ">
+        <a href="/dfir/dfir-001-ioc/">
+        Discovering Anomalies
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
       
     </li>
   
@@ -253,7 +284,7 @@
 
 <span id="sidebar-toggle-span">
 <a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
-</span>  <h1 id="red-hare-security-research-and-ramblings"><strong>Red Hare Security Research and Ramblings</strong></h1>
+</span>  <h1 id="red-hare-security-research-and-ramblings"><strong>Red Hare: Security Research and Ramblings</strong></h1>
 <hr>
 <p>Hi you’ve reached the blog belonging to the <strong>redhare</strong>. I’ve been working in information security since 2016 and while I’ve done hacks for work and after hours in the pursuit of furthering my technical skills, I realized that none of it really sticks until I write it down and put words to my lab work. I think we all end up googling solutions to our problems and we often stumble upon that one blog, or several, that guide us to the answer we’re looking for. This blog will just be me putting words to the technical issues I come across and the answers I came to.</p>
 <p>Full disclosure, any labs, write ups, solutions or opinions you read in any post will simply be what worked for me, specifically by the date I wrote the post. Things get patched, so software and hardware can update which can affect setups, steps, and commands. I imagine that environments can vary widely, and I&rsquo;m not suggesting my environment works better than others. In fact I&rsquo;d go so far as to encourage that you should read the posts and adapt any principles you see with your own work. I’ll try to write steps which can be followed beginning to end assuming you come as a blank slate.</p>
@@ -281,6 +312,10 @@
       B===E((Binaries .bin's))
       C===F((32-bit .exe's))
 </div>
+
+<div class="notices warning" ><p>All content on this blog is written by me and is used primarily as a way to turn my Googling and research into some solid understanding. I could be a complete moron and use poor word choice or be wrong on something. Point is don&rsquo;t listen to everything on the internet!</p>
+</div>
+
           
         </div>
         
@@ -323,6 +358,22 @@
                     
 
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -346,19 +397,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1612763664"></script>
-    <script src="/js/perfect-scrollbar.min.js?1612763664"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1612763664"></script>
-    <script src="/js/jquery.sticky.js?1612763664"></script>
-    <script src="/js/featherlight.min.js?1612763664"></script>
-    <script src="/js/highlight.pack.js?1612763664"></script>
+    <script src="/js/clipboard.min.js?1613369229"></script>
+    <script src="/js/perfect-scrollbar.min.js?1613369229"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1613369229"></script>
+    <script src="/js/jquery.sticky.js?1613369229"></script>
+    <script src="/js/featherlight.min.js?1613369229"></script>
+    <script src="/js/highlight.pack.js?1613369229"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1612763664"></script>
-    <script src="/js/learn.js?1612763664"></script>
-    <script src="/js/hugo-learn.js?1612763664"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1613369229"></script>
+    <script src="/js/learn.js?1613369229"></script>
+    <script src="/js/hugo-learn.js?1613369229"></script>
     
         
-            <script src="/mermaid/mermaid.js?1612763664"></script>
+            <script src="/mermaid/mermaid.js?1613369229"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });

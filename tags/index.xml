@@ -5,6 +5,34 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Red Hare Security Research</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jan 2021 20:15:36 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cyber threat intelligence</title>
+      <link>/tags/cyber-threat-intelligence/</link>
+      <pubDate>Tue, 26 Jan 2021 20:15:36 -0500</pubDate>
+      
+      <guid>/tags/cyber-threat-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forensics</title>
+      <link>/tags/forensics/</link>
+      <pubDate>Tue, 26 Jan 2021 20:15:36 -0500</pubDate>
+      
+      <guid>/tags/forensics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static property analysis</title>
+      <link>/tags/static-property-analysis/</link>
+      <pubDate>Tue, 26 Jan 2021 20:15:36 -0500</pubDate>
+      
+      <guid>/tags/static-property-analysis/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -7,5 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Jan 2021 00:53:11 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discovering Anomalies</title>
+      <link>/dfir/dfir-001-ioc/</link>
+      <pubDate>Tue, 26 Jan 2021 20:15:36 -0500</pubDate>
+      
+      <guid>/dfir/dfir-001-ioc/</guid>
+      <description>How do you confirm that an executable is malware? Sounds like an odd question to ask, but incident response exists in the world because something happened that evaded antivirus detection. Refer to the following chart (image from Lenny Zeltser): Antivirus or sandboxes would be considered a fully-automated analysis of a suspected executable. As an attacker, you’d want to implement a payload that can evade anti-virus detection, so fully-automated analysis loses it&amp;rsquo;s effectiveness especially when adversaries can bypass these defenses.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DFIR on Red Hare Security Research</title>
-    <link>/dfir/</link>
-    <description>Recent content in DFIR on Red Hare Security Research</description>
+    <title>cyber threat intelligence on Red Hare Security Research</title>
+    <link>/tags/cyber-threat-intelligence/</link>
+    <description>Recent content in cyber threat intelligence on Red Hare Security Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 16:27:20 -0500</lastBuildDate><atom:link href="/dfir/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 20:15:36 -0500</lastBuildDate><atom:link href="/tags/cyber-threat-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discovering Anomalies</title>
       <link>/dfir/dfir-001-ioc/</link>

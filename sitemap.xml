@@ -3,8 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/dfir/dfir-001-ioc/</loc>
+    <lastmod>2021-01-26T20:15:36-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/dfir/</loc>
     <lastmod>2021-01-23T16:27:20-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cyber-threat-intelligence/</loc>
+    <lastmod>2021-01-26T20:15:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/forensics/</loc>
+    <lastmod>2021-01-26T20:15:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/static-property-analysis/</loc>
+    <lastmod>2021-01-26T20:15:36-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-26T20:15:36-05:00</lastmod>
   </url>
   
   <url>
@@ -14,10 +39,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>
